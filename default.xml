@@ -1,5 +1,22 @@
 <manifest>
+  
   <remote name="alphagov" fetch="ssh://git@github.com/alphagov" />
   <default remote="alphagov" revision="master" />
+
+  <project path="business-support-api" name="business-support-api" groups="govuk,finding-things" />
+  <project path="business-support-finder" name="business-support-finder" groups="govuk,finding-things" />
+  <project path="collections" name="collections" groups="govuk,finding-things" />
+  <project path="collections-publisher" name="collections-publisher" groups="govuk,finding-things" />
+  <project path="content-tagger" name="content-tagger" groups="govuk,finding-things" />
+  <project path="email-alert-api" name="email-alert-api" groups="govuk,finding-things" />
+  <project path="email-alert-frontend" name="email-alert-frontend" groups="govuk,finding-things" />
+  <project path="email-alert-service" name="email-alert-service" groups="govuk,finding-things" />
+  <project path="finder-frontend" name="finder-frontend" groups="govuk,finding-things" />
+  <project path="panopticon" name="panopticon" groups="govuk,finding-things" />
+  <project path="policy-publisher" name="policy-publisher" groups="govuk,finding-things" />
   <project path="rummager" name="rummager" groups="govuk,finding-things" />
+  <project path="search-admin" name="search-admin" groups="govuk,finding-things" />
+  <project path="search-analytics" name="search-analytics" groups="govuk,finding-things" />
+  <project path="whitehall" name="whitehall" groups="govuk,finding-things,core,custom" />
+  
 </manifest>
