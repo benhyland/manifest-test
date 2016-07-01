@@ -1,5 +1,5 @@
 <manifest>
-  <remote name="alphagov" fetch="git@github.com:alphagov"/>
-  <default remote="alphagov"/>
-  <project path="rummager" name="alphagov/rummager" groups="govuk,finding-things"/>
+  <remote name="alphagov" fetch="git@github.com:alphagov" />
+  <default remote="alphagov" revision="master" />
+  <project path="rummager" name="rummager" groups="govuk,finding-things" />
 </manifest>
