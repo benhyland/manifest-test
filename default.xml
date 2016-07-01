@@ -1,9 +1,11 @@
 <manifest>
   
-  <remote name="alphagov" fetch="ssh://git@github.com/alphagov" />
-  <default remote="alphagov" revision="master" />
+  <remote name="alphagov" fetch="ssh://git@github.com/alphagov" revision="master" />
+  <remote name="github.gds" fetch="ssh://git@github.gds/gds" revision="master" />
+  
+  <default remote="alphagov" />
 
-  <project path="development" name="development" groups="govuk" />
+  <project path="development" name="development" remote="github.gds" groups="govuk" />
   <project path="govuk-puppet" name="govuk-puppet" groups="govuk" />
 
   <project path="asset-manager" name="asset-manager" groups="govuk" />
